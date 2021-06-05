@@ -18,7 +18,6 @@ interface AppLogoProps {
 const AppLogo = (props: AppLogoProps) => {
   return <img src={props.logo} className="App-logo" alt="logo" />;
 };
-
 interface SocialLinkProps {
   name: string;
   link: string;
